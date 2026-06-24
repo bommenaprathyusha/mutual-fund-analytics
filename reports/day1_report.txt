@@ -1,0 +1,34 @@
+DAY 1 REPORT – PROJECT SETUP & DATA INGESTION
+
+1. Project folder structure created.
+2. Installed required libraries:
+   - pandas
+   - numpy
+   - matplotlib
+   - seaborn
+   - plotly
+   - sqlalchemy
+   - requests
+   - scipy
+   - jupyter
+
+3. Loaded all 10 datasets successfully.
+
+4. Fund Master Analysis:
+   - Fund Houses: SBI, ICICI, Nippon, Axis, Kotak, HDFC, Aditya Birla, UTI, Mirae, DSP
+   - Categories: Equity, Debt
+   - Risk Categories: Low, Moderate, High, Very High, Moderately High
+
+5. AMFI Validation:
+   - Common key: amfi_code
+   - Validation completed successfully.
+
+6. Data Quality:
+   - Missing values checked.
+   - Duplicate rows checked.
+
+7. Live NAV Fetch:
+   - API endpoint: https://api.mfapi.in/mf/125497
+   - NAV data fetched and stored successfully.
+
+Status: Day 1 Completed Successfully.
